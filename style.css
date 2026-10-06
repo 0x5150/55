@@ -41,5 +41,6 @@ body {
 }
 
 .letterboxd::before { background-image: url("images/letterboxd.svg"); }
-.rym::before        { background-image: url("images/rym.png"); }
+.rym::before        { background-image: url("images/applemusic.svg"); }
 .spotify::before    { background-image: url("images/spotify.svg"); }
+.twitch::before    { background-image: url("images/twitch.svg"); }
