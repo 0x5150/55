@@ -7,25 +7,37 @@ body {
 }
 
 .links {
-  list-style: none;
-  padding: 0;
+    list-style: none;
+    padding: 0;
+    width: fit-content;
+    margin: 0 auto;
+    text-align: left;
 }
 
 .links li {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
 }
 
 .links li::before {
-  content: "";
-  width: 20px;
-  height: 20px;
-  flex-shrink: 0;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+    content: "";
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
 }
 
 .letterboxd::before { background-image: url("images/letterboxd.svg"); }
